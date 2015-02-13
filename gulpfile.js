@@ -49,7 +49,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('webpack', function() {
-   gulp.src('public/js/ma/main.js')
+   gulp.src('public/js/project/main.js')
     .pipe(webpack({
       output: {
         filename: 'public/dist/main.js'
